@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 1fce35ff56ac922419289c4dda830685
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mapManager: {fileID: 5153130852069165361, guid: 7ee448a92ab193544b31ddab9073065a, type: 3}
+  - UImapManager: {fileID: 654545447270361884, guid: fde13bfdc1afae04db3f735d1c97ffa5, type: 3}
+  - mapList: {fileID: 11400000, guid: ed78f8ddfdcd27a4aa29b369008f2990, type: 2}
+  - beatMapUI: {fileID: 1229313735877136109, guid: a7fd54f76e268c34bbd461ce279e70e5, type: 3}
+  - indicator: {fileID: 7653134104078244280, guid: 76624ca71f3e7804b945d87135db795c, type: 3}
+  - startUI: {fileID: 3845511304243822543, guid: 6b3ba1891b302d542915b4bf7c34cf1b, type: 3}
+  - startButton: {fileID: 1123968270953967842, guid: dd364d93f34ac184b884b7dbc685ae66, type: 3}
+  - settingButton: {fileID: 3227189894529485583, guid: 471fd3ae74264824e9291057d67d7d57, type: 3}
+  - audioSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76afcef6ac5fad24d9c9d22f1915c772, type: 3}
+  m_Name: BlueStudentList
+  m_EditorClassIdentifier: 
+  studentInfo:
+  - name: "\uC544\uCF54"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fe81aa31dbe231e4eb26e5e62c7cf817, type: 3}
+    portrait: {fileID: 21300000, guid: 9691d14b99612a54e88777f0e07a6d90, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uC544\uB9AC\uC2A4"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: e4e2e5933bb5e1a418356cebfd7df420, type: 3}
+    portrait: {fileID: 21300000, guid: b5a9796fa8cfa2d4f9cf940f8ef28e98, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uC544\uC2A4\uB098"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: e4e2e5933bb5e1a418356cebfd7df420, type: 3}
+    portrait: {fileID: 21300000, guid: 8677471e86f3a3f4c9519c4125a1ee83, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uCE58\uC138"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fb4d13347b0c85844bbc3112183628b2, type: 3}
+    portrait: {fileID: 21300000, guid: 6cd022ef1cf0fd842bcc204c6474b895, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uD558\uB8E8\uB098"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: 397e58e484fde9b4bbea3f19266a3a52, type: 3}
+    portrait: {fileID: 21300000, guid: ebb1c3ce7f7f9464fab8c6c29016b72b, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uD788\uB098\uD0C0"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: 397e58e484fde9b4bbea3f19266a3a52, type: 3}
+    portrait: {fileID: 21300000, guid: 8558b752d1fd4c34fa4504c291caac79, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uC774\uB85C\uD558"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fe81aa31dbe231e4eb26e5e62c7cf817, type: 3}
+    portrait: {fileID: 21300000, guid: 18d63c40f551ff84bb8990470a235ccd, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uC774\uC988\uB098"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fb4d13347b0c85844bbc3112183628b2, type: 3}
+    portrait: {fileID: 21300000, guid: 42ade7adf6960b64084e10ee7844ef40, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uCE74\uD638"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fb4d13347b0c85844bbc3112183628b2, type: 3}
+    portrait: {fileID: 21300000, guid: 7201dfadea9ee1942990241dc5b0bcaa, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uCF54\uC720\uD0A4"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: e4e2e5933bb5e1a418356cebfd7df420, type: 3}
+    portrait: {fileID: 21300000, guid: 97addbc101baa4b4983dc256fa7291bc, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uB9C8\uB9AC"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: 397e58e484fde9b4bbea3f19266a3a52, type: 3}
+    portrait: {fileID: 21300000, guid: 8160a89c7732d2b4b9416ea92899e45a, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uBBF8\uCE58\uB8E8"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fb4d13347b0c85844bbc3112183628b2, type: 3}
+    portrait: {fileID: 21300000, guid: 1137646a3a4724e48807df65071934a4, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uBBF8\uBAA8\uB9AC"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fb4d13347b0c85844bbc3112183628b2, type: 3}
+    portrait: {fileID: 21300000, guid: 9918e7794b58efe4dabe38c3314c7347, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uB098\uCE20"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: 397e58e484fde9b4bbea3f19266a3a52, type: 3}
+    portrait: {fileID: 21300000, guid: 08378831635d3294187fdf6a49c0d967, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uB178\uC544"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: e4e2e5933bb5e1a418356cebfd7df420, type: 3}
+    portrait: {fileID: 21300000, guid: 82469e1c061b2134f9fb73e89ae2ce14, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uC0AC\uCFE0\uB77C\uCF54"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: 397e58e484fde9b4bbea3f19266a3a52, type: 3}
+    portrait: {fileID: 21300000, guid: 257eeb294f407374e9f61fc9186eb918, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uC138\uB098"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fe81aa31dbe231e4eb26e5e62c7cf817, type: 3}
+    portrait: {fileID: 21300000, guid: 6c60577e934270d45a8b95d6d520c431, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uC138\uB9AC\uB098"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: 397e58e484fde9b4bbea3f19266a3a52, type: 3}
+    portrait: {fileID: 21300000, guid: c20512182bc840b41b6736afd8d9b49e, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 1
+  - name: "\uC2DC\uC988\uCF54"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fb4d13347b0c85844bbc3112183628b2, type: 3}
+    portrait: {fileID: 21300000, guid: e33cceef9dc73d1468d93c6de61aaaeb, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uCE20\uCFE0\uC694"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fb4d13347b0c85844bbc3112183628b2, type: 3}
+    portrait: {fileID: 21300000, guid: d66d1e0e9ab19ae4eb0f5f29c7fc38e4, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0
+  - name: "\uC640\uCE74\uBAA8"
+    skillName: 
+    backgroundImage: {fileID: 21300000, guid: fb4d13347b0c85844bbc3112183628b2, type: 3}
+    portrait: {fileID: 21300000, guid: 16a7f82d59f2b034ca440bf3af5acbf7, type: 3}
+    skillType: 0
+    amplier: 0
+    cost: 0

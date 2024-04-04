@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 81d0aefc1d26fae46993eec117e5ecd0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - beatMapNameText: {instanceID: 0}
+  - gameManager: {fileID: 3130938310698488776, guid: b0c613dc2a32b92409f676190c3ef360, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

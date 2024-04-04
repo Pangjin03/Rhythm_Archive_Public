@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 13f9e2d945aeb844ba338969acda953a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - beatMap: {fileID: 11400000, guid: ae7f62ec694ebce419bc21291379dfe1, type: 2}
+  - blockList: {fileID: 11400000, guid: 05b5e420145d52341ad91f0af8d46686, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

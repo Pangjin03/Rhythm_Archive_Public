@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6c5615e56bc586e45b470f59ffe8fc08
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mapList: {fileID: 11400000, guid: ed78f8ddfdcd27a4aa29b369008f2990, type: 2}
+  - beatMapButtonPrefab: {fileID: 1212752876709146523, guid: d8ac06072c8a12145bc89ae5161153e7, type: 3}
+  - Parent: {fileID: 1229313735877136109, guid: a7fd54f76e268c34bbd461ce279e70e5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
