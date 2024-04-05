@@ -18,17 +18,7 @@ public class PartyManager : MonoBehaviour
     [SerializeField] private StudentList yellowStudentList;
     [SerializeField] private StudentList blueStudentList;
     [SerializeField] public List<StudentList.StudentInfo> studentList;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void OnClickPortrait()
     {
         Debug.Log("click");

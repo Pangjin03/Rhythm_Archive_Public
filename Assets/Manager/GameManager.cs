@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject stopUI;
     [SerializeField] private GameObject gameUI;
     [SerializeField] private GameObject partySettingUI;
+    [SerializeField] private GameObject gameOverUI;
     [SerializeField] private GameObject startButton;
     [SerializeField] private GameObject settingButton;
     [SerializeField] private AudioSource audioSource;
@@ -27,6 +28,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text scoreText;
     [SerializeField] private TMP_Text doubleText;
     [SerializeField] private TMP_Text shieldText;
+    [SerializeField] private TMP_Text maxScoreText;
+    [SerializeField] private TMP_Text maxComboText;
     [SerializeField] private AudioSource mainAudio;
     [SerializeField] private List<Slider> manaList;
     [SerializeField] private Slider hpBar;
@@ -70,6 +73,10 @@ public class GameManager : MonoBehaviour
         beatMapUIActive(false);
         SetCombo(0);
         SetScore(0);
+        _shield = 0;
+        _double = 0;
+        shieldText.text = _shield.ToString();
+        doubleText.text = _double.ToString();
         hpBar.value = 100f;
         gameUI.SetActive(true);
     }
@@ -91,9 +98,7 @@ public class GameManager : MonoBehaviour
         for (int _index = 0; _index < 3; _index++)
         {
             var partyInfo = partyManager.GetStudentInfo(_index);
-            manaList[_index].maxValue = partyInfo.Cost;
-            Debug.Log(partyInfo.Cost);
-            Debug.Log(partyInfo.Name);
+            manaList[_index].maxValue = partyInfo.Cost * 1.5f;
         }
     }
     public void OnMiss()
@@ -110,8 +115,10 @@ public class GameManager : MonoBehaviour
             hpBar.value -= 5f;
             if (hpBar.value <= 0f)
             {
-                OnClickLobbyButton();
+                gameOverUI.SetActive(true);
                 IsPlaying = false;
+                audioSource.Stop();
+                Invoke("OnClickLobbyButton", 3f);
                 //GameOver()
             }
         }
@@ -197,6 +204,8 @@ public class GameManager : MonoBehaviour
         }
         if (!audioSource.isPlaying && !stopUI.activeSelf && IsPlaying)
         {
+            maxScoreText.text = (Mathf.Max(int.Parse(maxScoreText.text), score)).ToString();
+            maxComboText.text = (Mathf.Max(int.Parse(maxComboText.text), combo)).ToString();
             Invoke("ResultUIActive", 3f);    
         }
     }
@@ -226,6 +235,7 @@ public class GameManager : MonoBehaviour
             }
         }
         ResumeUI();
+        gameOverUI.SetActive(false);
         audioSource.Stop();
         CancelInvoke();
         beatMapUIActive(true);
