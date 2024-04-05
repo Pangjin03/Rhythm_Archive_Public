@@ -236,7 +236,7 @@ MonoBehaviour:
     yellow: 0
     blue: 0
   - red: 0
-    yellow: 0
+    yellow: 2
     blue: 0
   - red: 0
     yellow: 0
@@ -248,13 +248,7 @@ MonoBehaviour:
     yellow: 0
     blue: 3
   - red: 0
-    yellow: 0
-    blue: 0
-  - red: 0
     yellow: 2
-    blue: 0
-  - red: 1
-    yellow: 0
     blue: 0
   - red: 0
     yellow: 0
@@ -263,16 +257,10 @@ MonoBehaviour:
     yellow: 0
     blue: 3
   - red: 0
-    yellow: 3
-    blue: 0
-  - red: 0
     yellow: 0
     blue: 0
   - red: 0
     yellow: 2
-    blue: 0
-  - red: 0
-    yellow: 0
     blue: 0
   - red: 2
     yellow: 0
@@ -295,6 +283,12 @@ MonoBehaviour:
   - red: 0
     yellow: 0
     blue: 3
+  - red: 1
+    yellow: 0
+    blue: 0
+  - red: 0
+    yellow: 3
+    blue: 0
   - red: 0
     yellow: 0
     blue: 0
@@ -308,8 +302,26 @@ MonoBehaviour:
     yellow: 0
     blue: 0
   - red: 0
+    yellow: 2
+    blue: 0
+  - red: 0
+    yellow: 0
+    blue: 0
+  - red: 1
+    yellow: 0
+    blue: 0
+  - red: 0
+    yellow: 0
+    blue: 1
+  - red: 0
+    yellow: 0
+    blue: 0
+  - red: 0
     yellow: 0
     blue: 3
+  - red: 0
+    yellow: 0
+    blue: 0
   - red: 0
     yellow: 3
     blue: 0
@@ -321,7 +333,7 @@ MonoBehaviour:
     blue: 0
   - red: 0
     yellow: 0
-    blue: 0
+    blue: 3
   - red: 2
     yellow: 0
     blue: 0
@@ -333,19 +345,55 @@ MonoBehaviour:
     blue: 0
   - red: 0
     yellow: 0
-    blue: 0
-  - red: 0
-    yellow: 2
-    blue: 0
-  - red: 0
-    yellow: 0
-    blue: 0
-  - red: 0
-    yellow: 0
     blue: 3
   - red: 0
     yellow: 0
     blue: 0
-  - red: 0
-    yellow: 0
-    blue: 0
+  - red: 
+    yellow: 
+    blue: 3
+  - red: 
+    yellow: 
+    blue: 
+  - red: 
+    yellow: 2
+    blue: 
+  - red: 
+    yellow: 
+    blue: 
+  - red: 1
+    yellow: 
+    blue: 
+  - red: 
+    yellow: 
+    blue: 
+  - red: 
+    yellow: 
+    blue: 
+  - red: 
+    yellow: 
+    blue: 
+  - red: 2
+    yellow: 
+    blue: 
+  - red: 
+    yellow: 3
+    blue: 
+  - red: 2
+    yellow: 
+    blue: 
+  - red: 
+    yellow: 3
+    blue: 
+  - red: 
+    yellow: 
+    blue: 1
+  - red: 
+    yellow: 3
+    blue: 
+  - red: 
+    yellow: 
+    blue: 1
+  - red: 
+    yellow: 2
+    blue: 

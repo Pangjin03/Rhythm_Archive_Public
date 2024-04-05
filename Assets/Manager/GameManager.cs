@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text beatMapNameText;
     [SerializeField] private TMP_Text comboText;
     [SerializeField] private TMP_Text scoreText;
+    [SerializeField] private TMP_Text doubleText;
+    [SerializeField] private TMP_Text shieldText;
     [SerializeField] private AudioSource mainAudio;
     [SerializeField] private List<Slider> manaList;
     [SerializeField] private Slider hpBar;
@@ -99,6 +101,7 @@ public class GameManager : MonoBehaviour
         if (_shield > 0)
         {
             _shield -= 1;
+            shieldText.text = _shield.ToString();
         }
         else
         {
@@ -122,6 +125,7 @@ public class GameManager : MonoBehaviour
         {
             _double -= 1;
             blockscore = 1000;
+            doubleText.text = _double.ToString();
         }
         SetCombo(combo + 1);
         SetScore(score + blockscore);
@@ -155,6 +159,7 @@ public class GameManager : MonoBehaviour
         {
             case 0:
                 _double += skillInfo.Amplier;
+                doubleText.text = _double.ToString();
                 break;
             case 1:
                 SetScore(score + skillInfo.Amplier);
@@ -164,6 +169,7 @@ public class GameManager : MonoBehaviour
                 break;
             case 3:
                 _shield += skillInfo.Amplier;
+                shieldText.text = _shield.ToString();
                 break;
             default:
                 break;
@@ -237,6 +243,10 @@ public class GameManager : MonoBehaviour
         MainUIActive(false);
         var radioButton = FindObjectOfType<RadioButton>();
         radioButton.OnClickRedButton();
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
     }
     public void PlayMusics()
     {
